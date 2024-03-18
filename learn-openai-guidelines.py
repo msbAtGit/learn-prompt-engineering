@@ -9,7 +9,6 @@ _ = load_dotenv(find_dotenv())
 
 openai.api_key  = os.getenv('OPENAI_API_KEY')
 
-#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
 
 print (openai.api_key)
 
